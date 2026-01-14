@@ -1,0 +1,46 @@
+/* .topbar{
+    background-color: blue;
+} */
+
+.subscribe{
+min-height: 60vh;
+background: url(./assets/sub-banner.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+/* =-============= */
+
+.feedback-section {
+  animation: fadeUp 1s ease-in-out;
+}
+
+.feedback-img {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.feedback-img:hover {
+  transform: scale(1.05);
+}
+
+.feedback-btn {
+  transition: all 0.3s ease;
+}
+
+.feedback-btn:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

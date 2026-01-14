@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Ecommerce Layout</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <div class="bg-dark text-white p-2">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+        <div class="top-bar-left">
+
+          <span><i class="fa-solid fa-envelope"></i> saminsaleem1111@@gmail.com</span>
+          <span><i class="fa-solid fa-phone"></i> +92 340 1390 391</span>
+
+        </div>
+
+        <div class="top-bar-right ">
+          <a href=""><i class=" text-white fa-brands fa-facebook"></i></a>
+          <a href=""><i class=" text-white fa-brands fa-instagram"></i></a>
+          <a href=""><i class=" text-white fa-brands fa-youtube"></i></a>
+          <a href=""><i class=" text-white fa-brands fa-whatsapp"></i></a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 3px solid black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><b>T-SHIRT</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About-Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Category
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">2 Piece Suit</a></li>
+              <li><a class="dropdown-item" href="#">3 Piece Suit</a></li>
+              <li><a class="dropdown-item" href="#">Cotton Kurti</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="" class="btn btn-dark m-2">Sign In</a>
+          <a href="" class="btn btn-dark m-2">Sign Up</a>
+          <a href="" class="btn btn-dark m-2"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- End Header -->
+
+  <!-- Start Carousel -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/banner1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/banner2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/banner3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- End Carousel -->
+
+
+  <div class="categories p-5">
+
+    <div class="categories-content p-3 text-center">
+
+      <h3><b><u>OUR FEATURED CATEGORIES</u></b></h3>
+
+      <div class="main-categories p-3 mt-3 d-flex flex-column flex-md-row justify-content-center align-items-center">
+
+        <div class="card m-2" style="width: 18rem;">
+          <a href=""> <img src="./assets/2 piece suit.jpg" class="card-img-top" alt="img"> </a>
+          <div class="card-body">
+            <a href="" class="text-decoration-none text-uppercase">
+              <h5 class="card-title text-primary "><b>2 Piece Suit</b></h5>
+            </a>
+          </div>
+        </div>
+
+        <div class="card m-2" style="width: 18rem;">
+          <a href=""> <img src="./assets/3 piece suit.jpg" class="card-img-top" alt="img"> </a>
+          <div class="card-body">
+            <a href="" class="text-decoration-none text-uppercase">
+              <h5 class="card-title text-primary "><b>3 Piece Suit</b></h5>
+            </a>
+          </div>
+        </div>
+
+        <div class="card m-2" style="width: 18rem;">
+          <a href=""> <img src="./assets/kurti.jpg" class="card-img-top" alt="img"> </a>
+          <div class="card-body">
+            <a href="" class="text-decoration-none text-uppercase">
+              <h5 class="card-title text-primary "><b>Cotton Kurti</b></h5>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- =========================== -->
+
+
+
+
+  <section class="subscribe d-flex align-items-center justify-content-center text-center text-white">
+    <div class="bg-dark bg-opacity-50 p-4 p-md-5 rounded-3" style="max-width: 550px;">
+
+      <h2 class="fw-bold mb-3">Get Subscribe to 25% Off</h2>
+
+      <p class="mb-4">
+        Enjoy exclusive offers, special updates, and valuable content delivered straight to your inbox when you sign up
+        today.
+      </p>
+
+      <form class="d-flex gap-2 flex-column flex-sm-row justify-content-center">
+        <input type="email" class="form-control" placeholder="Email address" required>
+        <button class="btn btn-primary px-4" type="submit">Subscribe</button>
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- ============= -->
+
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">What Our Customers Say</h2>
+        <p class="text-muted">Real feedback from our fashionable BlingBazar shoppers</p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Testimonial 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center p-4 border rounded-3 bg-white h-100">
+            <img src="./assets/tes-1.jpg" class="rounded-circle mb-3" width="100" height="100" alt="">
+            <h5 class="mb-1">fiza Khan</h5>
+            <small class="text-muted d-block mb-3">Marketing Executive</small>
+            <p class="mb-0">BlingBazar has the finest 2-piece and 3-piece outfits. The quality and stitching are
+              excellent—my go-to for stylish cotton kurtis!</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center p-4 border rounded-3 bg-white h-100">
+            <img src="./assets/tes-2.jpg" class="rounded-circle mb-3" width="100" height="100" alt="">
+            <h5 class="mb-1">Sana Ahmed</h5>
+            <small class="text-muted d-block mb-3">Fashion Blogger</small>
+            <p class="mb-0">I love shopping at BlingBazar! Their fabric comfort and modern kurti designs make every
+              outfit look classy and elegant.</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center p-4 border rounded-3 bg-white h-100">
+            <img src="./assets/tes-3.jpg" class="rounded-circle mb-3" width="100" height="100" alt="">
+            <h5 class="mb-1">Hinia Raza</h5>
+            <small class="text-muted d-block mb-3">HR Manager</small>
+            <p class="mb-0">Their 3-piece suits are beyond amazing! Vibrant colors, neat stitching, and perfect fitting.
+              BlingBazar never disappoints.</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center p-4 border rounded-3 bg-white h-100">
+            <img src="./assets/tes-4.jpg" class="rounded-circle mb-3" width="100" height="100" alt="">
+            <h5 class="mb-1">manal Iqbal</h5>
+            <small class="text-muted d-block mb-3">Teacher</small>
+            <p class="mb-0">BlingBazar's cotton kurtis are super comfortable for daily wear. Affordable and
+              stylish—highly recommended!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ -->
+
+  <!-- Feedback Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center shadow rounded overflow-hidden feedback-section">
+
+        <!-- Left Image -->
+        <div class="col-lg-6 d-none d-lg-block p-0">
+          <img src="./assets/feedback-bg.jpg" class="img-fluid h-100 w-100 feedback-img" alt="Feedback Image">
+        </div>
+
+        <!-- Right Form -->
+        <div class="col-lg-6 p-5 bg-white">
+          <h2 class="fw-bold mb-3 text-center"><u>GET IN TOUCH</u></h2>
+          <form onsubmit="feedbackMsg()">
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" placeholder="Username"  id="username" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-lg" placeholder="Email" id="email" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="tel" id="phone" class="form-control form-control-lg" placeholder="Phone Number" required>
+            </div>
+
+            <div class="mb-3">
+              <textarea id="msg" class="form-control form-control-lg" rows="4" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-primary btn-lg feedback-btn" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== -->
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="bg-black d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block text-white">
+        <h4>Get connected with us on social networks:</h4>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-white fs-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="" class="me-4 text-white fs-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-white fs-4">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="" class="me-4 text-white fs-4">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i><b>BlingBazaar</b>
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">2 Piece</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">3 Piece</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Cotton Kurti</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Pages
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">About</a>
+            </p>
+
+            <p>
+              <a href="#!" class="text-reset">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Karachi-Pakistan</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              saminsaleem1111@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +92 340 1390 391</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2025 Copyright:
+      <a class="text-reset fw-bold" href="#">BlingBazaar|Design By:SAMIN ABAD</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script src="./script.js"></script>
+
+</html>
